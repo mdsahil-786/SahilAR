@@ -1,0 +1,14 @@
+<model-viewer src="chair (1).glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate camera-orbit="199.5deg 12.66deg 2.286m" field-of-view="29.92deg">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.01576666868501378m 0.9511063956663945m 0.22990541241570323m" data-normal="0.026743647965639928m 0.09877413063737964m -0.9947504452928483m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">HotSpot</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
